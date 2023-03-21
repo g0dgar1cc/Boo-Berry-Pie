@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] obstaclesPrefabs;
-    public int obstaclesIndex;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +17,8 @@ public class SpawnManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.S))
         {
+            int obstaclesIndex = Random.Range(0, 4);
+
             Instantiate(obstaclesPrefabs[obstaclesIndex], new Vector3(0, 0, -5), obstaclesPrefabs[obstaclesIndex].transform.rotation);
         }
     }

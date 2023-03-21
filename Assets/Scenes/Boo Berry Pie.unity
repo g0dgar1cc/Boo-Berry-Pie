@@ -157,7 +157,6 @@ MonoBehaviour:
   - {fileID: 3182950521917717749, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
   - {fileID: 7052058689299833769, guid: 45f4d25a135f24caa80357c8fd97bc30, type: 3}
   - {fileID: 7643020883689693566, guid: 18c8799f0a0bf431caaf6edfbf4d85b1, type: 3}
-  obstaclesIndex: 0
 --- !u!4 &106899412
 Transform:
   m_ObjectHideFlags: 0
@@ -286,7 +285,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 90
   m_CollisionDetection: 0
 --- !u!114 &142966897
 MonoBehaviour:
@@ -300,8 +299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f338041313024971b3fb9a63f0bdd71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 14
-  gravityModifier: 2
+  jumpForce: 17
+  gravityModifier: 3
   isOnGround: 1
 --- !u!1 &395712680
 GameObject:
@@ -894,7 +893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3182950521917717705, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 3182950521917717705, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
       propertyPath: m_LocalPosition.z

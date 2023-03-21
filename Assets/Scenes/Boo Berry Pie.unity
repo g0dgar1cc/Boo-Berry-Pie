@@ -401,6 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b0e7ba8694e4d30bc913f98f3f8768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
 --- !u!114 &395712686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,7 +758,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pie
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3546038914694772948, guid: 45f4d25a135f24caa80357c8fd97bc30, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45f4d25a135f24caa80357c8fd97bc30, type: 3}
 --- !u!1001 &2341654803305550080
 PrefabInstance:
@@ -814,7 +816,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8118807526903458976, guid: 18c8799f0a0bf431caaf6edfbf4d85b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 18c8799f0a0bf431caaf6edfbf4d85b1, type: 3}
 --- !u!1001 &2924828244350555748
 PrefabInstance:
@@ -871,7 +874,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4026309831731138199, guid: 8c71ba2ef08034f14b629f7f2f0e1f85, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8c71ba2ef08034f14b629f7f2f0e1f85, type: 3}
 --- !u!1001 &3182950521473817768
 PrefabInstance:
@@ -928,5 +932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mailbox
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7246236333424836958, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
+      propertyPath: speed
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1376427758852015337, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}

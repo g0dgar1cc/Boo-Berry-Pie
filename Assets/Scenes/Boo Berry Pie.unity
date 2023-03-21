@@ -157,6 +157,7 @@ MonoBehaviour:
   - {fileID: 3182950521917717749, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
   - {fileID: 7052058689299833769, guid: 45f4d25a135f24caa80357c8fd97bc30, type: 3}
   - {fileID: 7643020883689693566, guid: 18c8799f0a0bf431caaf6edfbf4d85b1, type: 3}
+  obstaclesIndex: 1
 --- !u!4 &106899412
 Transform:
   m_ObjectHideFlags: 0
@@ -423,7 +424,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 1.8, z: 10.000002}
+  m_Size: {x: 115, y: 1.8, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -695,7 +696,7 @@ Transform:
   m_GameObject: {fileID: 1379640973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.7, y: -1.6, z: -5.56662}
-  m_LocalScale: {x: 5.4331, y: 1, z: 1}
+  m_LocalScale: {x: 5.3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -775,7 +776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9089605683328490430, guid: 18c8799f0a0bf431caaf6edfbf4d85b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.729999
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 9089605683328490430, guid: 18c8799f0a0bf431caaf6edfbf4d85b1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -832,7 +833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2924828244492453852, guid: 8c71ba2ef08034f14b629f7f2f0e1f85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5199995
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2924828244492453852, guid: 8c71ba2ef08034f14b629f7f2f0e1f85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -885,7 +886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3182950521917717705, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6199994
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3182950521917717705, guid: 8dc009b1f3c3446f98739487d308cae5, type: 3}
       propertyPath: m_LocalPosition.y

@@ -19,7 +19,7 @@ public class SpawnManager : MonoBehaviour
         {
             int obstaclesIndex = Random.Range(0, 4);
 
-            Instantiate(obstaclesPrefabs[obstaclesIndex], new Vector3(0, 0, -5), obstaclesPrefabs[obstaclesIndex].transform.rotation);
+            Instantiate(obstaclesPrefabs[obstaclesIndex], new Vector3(Random.Range(15, 0), 0, -5), obstaclesPrefabs[obstaclesIndex].transform.rotation);
         }
     }
 }
